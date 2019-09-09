@@ -12,6 +12,11 @@ public class misTests
     private Madre m1;
     private Hijo h1;
 
+    /*
+     no es recomendable que las variables 
+     tengan nombres tan poco declarativos
+    */
+
     private void DefinirPersonas()
     {
         p1= new Persona();
@@ -80,5 +85,9 @@ public class misTests
         h2.setEdad(18);
         m1.addHijo(h2);
         assertEquals(m1.HijosMenoresDeEdad().size(),1);
+        /*
+        falta chequear que ese hijo que está en 
+        el conjunto resultante, es el esperado.
+        */
     }
 }

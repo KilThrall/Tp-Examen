@@ -96,4 +96,6 @@ public class misTests
         libreria.AddVenta(l11);
         assertEquals(libreria.VendidosSegunEditorial(Editorial.Sur),2);
     }
+
+    //faltan testear addVenta
 }

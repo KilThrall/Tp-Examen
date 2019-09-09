@@ -1,30 +1,68 @@
 1)
 	Herencia de clases: Es cuando una clase hereda todas las propiedades de otra. Por ejemplo una clase Ingeniero podria heredar todas las propiedades de otra que sea Persona y agregar otros atributos exclusivos de su clase.
+	//bien
+
 	Alta cohesión: Consiste en reducir todos los métodos a su version mas simple
+	//ssimple en qué sentido?
+
 	Bajo acoplamiento: Consiste en reducir la dependencia de los métodos todo lo posible.
+	//bien
+
 	Redefinicion de funciones: se hace en caso de que sea posible redefinir una funcion para adaptarse mejor al hijo
+	//bien
 
 2)
 	this() 			llama al constructor de la clase en cuestion
+	//bien
+
 	super() 		se usa para llamar al constructor de la clase padre.
+	//*a algún constructor. Bien.
+
 	super 			se usa para retirar los atributos de la clase padre.
+	//retirar? mal.
+
 	extends 		se usa para definir cual es la clase padre
+	//bien
+
 	assertTrue()	Se le ingresa un parámetro a testear y considera el test como aprobado en caso de que el parámetro sea true
-	assertFalse()	Se le ingresa un parámetro a testear y considera el test como aprobado en caso de que el parámetro sea false
+	//bien
+
+	assertFalse()	Se le ingresa un parámetro a testear y considera 
+	el test como aprobado en caso de que el parámetro sea false
+	//bien
+
 	assertEquals()	se le ingresan 2 parámetros a testear y considera el test como aprobado en caso de que ambos parámetros sean iguales
+	//bien
+
 	enum			se usa para definir una clase de tipo enumerador. Esto significa que sus valores posibles estan definidos desde dentro de la clase, y su constructor es privado
+	//bien
+
 	import			se usa para importar librerias a tu código
+	//bien
+
 	package			especifica a que paquete pertenece la clase
+	//bien
 
 3)  carpetaA.carpetaB.carpetaC
+//falta el package antes. Regular.
 
 4)
 	a)En una relacion de composición, un objeto depende del otro, mientras que en la de agregacion es un objeto mas. Esto tambien implica que en una relacion de composición si el objeto padre es destruido, el otro tambien lo será. Ejemplos de composicion seria una clase que herede a otra, y de agregacion seria una clase que tenga como atributo a otra.
+	/*
+	mal. eso sería herencia de clases.
+	*/
+
 	b) Es la posibilidad de ir desde un objeto a otro. Se indica con una flecha que va de un objeto a otro
+	//qué significaría "ir" en ese contexto?
+
 	c) Es la clase destino en la asociacion.
+	//asociación de qué? de instancias.
 		1...* 	Uno o mas
 		1...15 	De uno a 15
 		1 		Uno y solo uno
 		0...*	Cero o mas
+		4?
 	d) Con un rombo pintado adentro
+	//mal
 	e) Un - para privados, un + para públicos
+	//bien

@@ -7,6 +7,19 @@ public class Persona
     private int edad;
     private int DNI;
     private boolean sexo; //false=mujer true=hombre
+    /*
+        comentario:
+
+        Si fuese un string, no tendrías que agregar 
+        comentarios al lado de un atributo porque sería 
+        lo suficientemente declarativo y no harían
+        falta aclaraciones para que cualquier lector
+        entienda.
+
+        Otra opción:
+        También pudo haber sido un tipo enumerado.
+        
+    */
     private String ocupacion;
 
     public Persona()

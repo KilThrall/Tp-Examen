@@ -1,0 +1,9 @@
+-------------------------------------------------------
+La clase madre puede tener desde una instancia hasta 
+una cantidad indefinida de hijos.
+
+una persona no está compuesta por intancias
+de la clase madre y/o hijo.
+
+falta navegabilidad.
+-------------------------------------------------------
